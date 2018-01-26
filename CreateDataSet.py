@@ -2,6 +2,7 @@ import sqlite3
 from sqlite3 import Error
 import cv2
 
+
 def InsertOrUpdate (Id, Name,Age ):
     conn= sqlite3.connect("DataBase.db")
     c=conn.cursor()
