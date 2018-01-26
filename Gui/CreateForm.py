@@ -13,12 +13,23 @@ import sqlite3
 from sqlite3 import Error
 
 class Ui_FormCreate(object):
+
+
     ########## Insert dữ liệu nhân viên vào cơ sở dữ liệu ##############################3
-    def InsertOrUpdate (self,HoTen,Tuoi,DiaChi,Luong):
+    def InsertOrUpdate (self):
+        HoTen=self.txtHoTen.text()
+        Tuoi=self.txtTuoi.text()
+        GioiTinh=str(self.ComboChucVu.currentText())
+        ChucVu = str(self.ComboGioiTinh.currentText())
+        PhongBan= str(self.ComboPhongBan.currentText())
+        DiaChi=self.txtDiaChi.text()
+        SoDienThoai= self.txtSoDienThoai.text()
+        Email= self.txtEmail.text()
+        Task= (HoTen,Tuoi,GioiTinh,DiaChi,ChucVu,PhongBan,SoDienThoai,Email)
         conn= sqlite3.connect("DiemDanh.db")
         c=conn.cursor()
-        cmd= "INSERT INTO NhanVien (HoTen,Tuoi, DiaChi, Luong) VALUES ('"+HoTen+"', '"+Tuoi+"','"+DiaChi+"','"+Luong+"')"
-        c.execute(cmd)
+        cmd="INSERT INTO NhanVien ( HoTen, Tuoi, GioiTinh, DiaChi, ChucVu, PhongBan, SoDienThoai, Email ) VALUES (?,?,?,?,?,?,?,?)"
+        c.execute(cmd,Task)
         conn.commit()
         c.close()
         conn.close()
@@ -28,36 +39,7 @@ class Ui_FormCreate(object):
 
 ############# Chụp ảnh tạo cơ sở dữ liệu cho phần mềm ###########################################################
     def LoadCam(self):
-        vid_cam = cv2.VideoCapture(0)
-        face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-        connection= sqlite3.connect("DiemDanh.db")
-        result = connection.execute("select count(*) from Nhanvien")
-        values= result.fetchone()
-        if(values[0]>0):
-            face_id= values[0] + 1
-        else :
-            face_id=1
-        print("faceid "+str(face_id))
-        count = 0
-        while(True):
-            _, image_frame = vid_cam.read()
-
-            gray = cv2.cvtColor(image_frame, cv2.COLOR_BGR2GRAY)
-            faces = face_detector.detectMultiScale(gray, 1.3, 5)
-            for (x,y,w,h) in faces:
-                cv2.rectangle(image_frame, (x,y), (x+w,y+h), (255,0,0), 2)
-
-                count += 1
-                cv2.imwrite("dataset/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h,x:x+w])
-
-                cv2.imshow('frame', image_frame)
-
-            if cv2.waitKey(100) & 0xFF == ord('q'):
-                break
-            elif count>100:
-                break
-        vid_cam.release()
-        cv2.destroyAllWindows()
+        import LoadCam
 #################################################################################################################
 ############## kHỞI TẠO THÀNH PHẦN CHO FORM TẠO MỚI : BUTTON / LABEL / TEXTBOX
     def setupUi(self, Form):
@@ -69,59 +51,61 @@ class Ui_FormCreate(object):
         self.txtHoTen = QtWidgets.QLineEdit(Form)
         self.txtHoTen.setGeometry(QtCore.QRect(80, 20, 161, 20))
         self.txtHoTen.setObjectName("txtHoTen")
-        self.spinBox = QtWidgets.QSpinBox(Form)
-        self.spinBox.setGeometry(QtCore.QRect(380, 20, 42, 22))
-        self.spinBox.setObjectName("spinBox")
+        self.txtTuoi = QtWidgets.QSpinBox(Form)
+        self.txtTuoi.setGeometry(QtCore.QRect(380, 20, 42, 22))
+        self.txtTuoi.setObjectName("txtTuoi")
         self.label_2 = QtWidgets.QLabel(Form)
         self.label_2.setGeometry(QtCore.QRect(330, 20, 47, 13))
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(Form)
         self.label_3.setGeometry(QtCore.QRect(20, 110, 61, 16))
         self.label_3.setObjectName("label_3")
-        self.txtHoTen_2 = QtWidgets.QLineEdit(Form)
-        self.txtHoTen_2.setGeometry(QtCore.QRect(80, 110, 161, 20))
-        self.txtHoTen_2.setObjectName("txtHoTen_2")
+        self.txtDiaChi = QtWidgets.QLineEdit(Form)
+        self.txtDiaChi.setGeometry(QtCore.QRect(80, 110, 161, 20))
+        self.txtDiaChi.setObjectName("txtDiaChi")
         self.label_4 = QtWidgets.QLabel(Form)
         self.label_4.setGeometry(QtCore.QRect(270, 70, 81, 16))
         self.label_4.setObjectName("label_4")
-        self.txtHoTen_3 = QtWidgets.QLineEdit(Form)
-        self.txtHoTen_3.setGeometry(QtCore.QRect(360, 70, 161, 20))
-        self.txtHoTen_3.setObjectName("txtHoTen_3")
+        self.txtSoDienThoai = QtWidgets.QLineEdit(Form)
+        self.txtSoDienThoai.setGeometry(QtCore.QRect(360, 70, 161, 20))
+        self.txtSoDienThoai.setObjectName("txtSoDienThoai")
         self.label_5 = QtWidgets.QLabel(Form)
         self.label_5.setGeometry(QtCore.QRect(20, 160, 61, 16))
         self.label_5.setObjectName("label_5")
-        self.txtHoTen_4 = QtWidgets.QLineEdit(Form)
-        self.txtHoTen_4.setGeometry(QtCore.QRect(80, 160, 161, 20))
-        self.txtHoTen_4.setObjectName("txtHoTen_4")
+        self.txtEmail = QtWidgets.QLineEdit(Form)
+        self.txtEmail.setGeometry(QtCore.QRect(80, 160, 161, 20))
+        self.txtEmail.setObjectName("txtEmail")
         self.label_6 = QtWidgets.QLabel(Form)
         self.label_6.setGeometry(QtCore.QRect(280, 120, 61, 16))
         self.label_6.setObjectName("label_6")
-        self.comboBox = QtWidgets.QComboBox(Form)
-        self.comboBox.setGeometry(QtCore.QRect(360, 120, 161, 22))
-        self.comboBox.setObjectName("comboBox")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
+        self.ComboChucVu = QtWidgets.QComboBox(Form)
+        self.ComboChucVu.setGeometry(QtCore.QRect(360, 120, 161, 22))
+        self.ComboChucVu.setObjectName("comboBox")
+        self.ComboChucVu.addItem("")
+        self.ComboChucVu.addItem("")
+        self.ComboChucVu.addItem("")
         self.label_7 = QtWidgets.QLabel(Form)
         self.label_7.setGeometry(QtCore.QRect(280, 160, 61, 16))
         self.label_7.setObjectName("label_7")
-        self.comboBox_2 = QtWidgets.QComboBox(Form)
-        self.comboBox_2.setGeometry(QtCore.QRect(360, 160, 161, 22))
-        self.comboBox_2.setObjectName("comboBox_2")
-        self.comboBox_2.addItem("")
-        self.comboBox_2.addItem("")
-        self.comboBox_2.addItem("")
-        self.comboBox_3 = QtWidgets.QComboBox(Form)
-        self.comboBox_3.setGeometry(QtCore.QRect(80, 60, 131, 22))
-        self.comboBox_3.setObjectName("comboBox_3")
-        self.comboBox_3.addItem("")
-        self.comboBox_3.addItem("")
+        self.ComboPhongBan = QtWidgets.QComboBox(Form)
+        self.ComboPhongBan.setGeometry(QtCore.QRect(360, 160, 161, 22))
+        self.ComboPhongBan.setObjectName("comboBox_2")
+        self.ComboPhongBan.addItem("")
+        self.ComboPhongBan.addItem("")
+        self.ComboPhongBan.addItem("")
+        self.ComboPhongBan.addItem("")
+        self.ComboGioiTinh = QtWidgets.QComboBox(Form)
+        self.ComboGioiTinh.setGeometry(QtCore.QRect(80, 60, 131, 22))
+        self.ComboGioiTinh.setObjectName("comboBox_3")
+        self.ComboGioiTinh.addItem("")
+        self.ComboGioiTinh.addItem("")
         self.label_8 = QtWidgets.QLabel(Form)
         self.label_8.setGeometry(QtCore.QRect(20, 60, 61, 16))
         self.label_8.setObjectName("label_8")
         self.pushButton = QtWidgets.QPushButton(Form)
         self.pushButton.setGeometry(QtCore.QRect(260, 210, 75, 23))
         self.pushButton.setObjectName("pushButton")
+        self.pushButton.clicked.connect(self.InsertOrUpdate)
         self.pushButton_2 = QtWidgets.QPushButton(Form)
         self.pushButton_2.setGeometry(QtCore.QRect(376, 210, 75, 23))
         self.pushButton_2.setObjectName("pushButton_2")
@@ -144,16 +128,17 @@ class Ui_FormCreate(object):
         self.label_3.setText(_translate("Form", "Địa chỉ : "))
         self.label_4.setText(_translate("Form", "Số điện thoại : "))
         self.label_5.setText(_translate("Form", "Email : "))
-        self.label_6.setText(_translate("Form", "Phòng ban:  "))
-        self.comboBox.setItemText(0, _translate("Form", "Nhân sự "))
-        self.comboBox.setItemText(1, _translate("Form", "Kinh Doanh"))
-        self.comboBox.setItemText(2, _translate("Form", "Kế Hoạch "))
-        self.label_7.setText(_translate("Form", "Chức vụ : "))
-        self.comboBox_2.setItemText(0, _translate("Form", "Trưởng Phòng"))
-        self.comboBox_2.setItemText(1, _translate("Form", "Phó Phòng"))
-        self.comboBox_2.setItemText(2, _translate("Form", "Nhân viên "))
-        self.comboBox_3.setItemText(0, _translate("Form", "Nam"))
-        self.comboBox_3.setItemText(1, _translate("Form", "Nữ"))
+        self.label_6.setText(_translate("Form", "Chức vụ:  "))
+        self.ComboChucVu.setItemText(0, _translate("Form", "Trưởng phòng "))
+        self.ComboChucVu.setItemText(1, _translate("Form", "Phó phòng"))
+        self.ComboChucVu.setItemText(2, _translate("Form", "Nhân viên "))
+        self.label_7.setText(_translate("Form", "Phòng ban : "))
+        self.ComboPhongBan.setItemText(0, _translate("Form", "Phòng kinh doanh"))
+        self.ComboPhongBan.setItemText(1, _translate("Form", "Phòng IT"))
+        self.ComboPhongBan.setItemText(2, _translate("Form", "Phòng Đối ngoại"))
+        self.ComboPhongBan.setItemText(3, _translate("Form", "Phòng Nhân sự"))
+        self.ComboGioiTinh.setItemText(0, _translate("Form", "Nam"))
+        self.ComboGioiTinh.setItemText(1, _translate("Form", "Nữ"))
         self.label_8.setText(_translate("Form", "Giới Tính : "))
         self.pushButton.setText(_translate("Form", "Thêm mới "))
         self.pushButton_2.setText(_translate("Form", "Hủy "))

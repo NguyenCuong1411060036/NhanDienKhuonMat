@@ -18,7 +18,7 @@ class Ui_Form(object):
     def ShowWarning(self):
             self.msg = QMessageBox()
             self.msg.setIcon(QMessageBox.Warning)
-            self.msg.setText("tên đăng nhập và mật khẩu sai")
+            self.msg.setText("Tên đăng nhập và mật khẩu sai !!! Thử lại .")
             self.msg.setWindowTitle("Cảnh báo ")
             self.msg.setStandardButtons(QMessageBox.Ok)
             self.msg.exec()
@@ -82,6 +82,7 @@ class Ui_Form(object):
         self.label_3.setText(_translate("Form", "PassWord: "))
         self.btnDangNhap.setText(_translate("Form", "Đăng nhập "))
         self.btnHuy.setText(_translate("Form", "Hủy "))
+
 
 
 if __name__ == "__main__":
