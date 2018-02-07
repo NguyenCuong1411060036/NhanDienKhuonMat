@@ -7,7 +7,8 @@ from sqlite3 import Error
 vid_cam = cv2.VideoCapture(0)
 face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 connection= sqlite3.connect("DiemDanh.db")
-result = connection.execute("select count(*) from Nhanvien")
+# lấy Id lớn nhất có trong database để tiến hành gán id tự động cho hình ảnh chụp được/ đồng bộ hóa giữa hình ảnh và thông tin nhân viên
+result = connection.execute("SELECT id FROM NhanVien ORDER BY id DESC limit 1")
 values= result.fetchone()
 if(values[0]>0):
     face_id= values[0] + 1

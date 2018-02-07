@@ -1,215 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="126cdbea-af11-4884-a573-7b7e866cd3e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gui/LoadCam.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gui/training.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.1.99.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.3.99.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/thu1.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.4.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.4.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gui/dataset/User.4.3.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gui/DiemDanh.db" afterPath="$PROJECT_DIR$/Gui/DiemDanh.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gui/CreateForm.py" afterPath="$PROJECT_DIR$/Gui/CreateForm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gui/FormMain.py" afterPath="$PROJECT_DIR$/Gui/FormMain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gui/LoadCam.py" afterPath="$PROJECT_DIR$/Gui/LoadCam.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gui/LoginForm.py" afterPath="$PROJECT_DIR$/Gui/LoginForm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gui/__init__.py" afterPath="$PROJECT_DIR$/Gui/__init__.py" />
     </list>
@@ -222,16 +27,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreateForm.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateForm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gui/CreateForm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+            <state relative-caret-position="319">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="e#197#239#0" expanded="true" />
-                <marker date="1516967891739" expanded="true" signature="893:902" ph="..." />
-                <marker date="1516967891739" expanded="true" signature="1436:1445" ph="..." />
-                <marker date="1516967891739" expanded="true" signature="1436:1452" ph="..." />
+                <marker date="1518024016338" expanded="true" signature="384:407" ph="..." />
+                <marker date="1518024016338" expanded="true" signature="408:7217" ph="..." />
+                <marker date="1518024016338" expanded="true" signature="959:968" ph="..." />
+                <marker date="1518024016338" expanded="true" signature="1502:1511" ph="..." />
+                <marker date="1518024016338" expanded="true" signature="1502:1518" ph="..." />
               </folding>
             </state>
           </provider>
@@ -240,18 +47,22 @@
       <file leaf-file-name="FormMain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gui/FormMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#194#230#0" expanded="true" />
+                <marker date="1518023196925" expanded="true" signature="1014:1802" ph="..." />
+                <marker date="1518023196925" expanded="true" signature="3412:3413" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gui/__init__.py">
+      <file leaf-file-name="thu1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/thu1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -260,10 +71,10 @@
       <file leaf-file-name="LoginForm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gui/LoginForm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="e#195#209#0" expanded="true" />
+                <marker date="1517595755458" expanded="true" signature="444:453" ph="..." />
               </folding>
             </state>
           </provider>
@@ -272,9 +83,11 @@
       <file leaf-file-name="LoadCam.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gui/LoadCam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="401">
+              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -298,6 +111,18 @@
       <find>txtHoTen_2</find>
       <find>txtHoTen_3</find>
       <find>txtHoTen_4</find>
+      <find>PyQt4</find>
+      <find>FormChinhSua</find>
+      <find>QtGui</find>
+      <find>label</find>
+      <find>XoaNhanVien</find>
+      <find>txtHoTen</find>
+      <find>ComboGioiTinh</find>
+      <find>txtKinhDoanh</find>
+      <find>txtDiaChi</find>
+      <find>selectRow</find>
+      <find>KiemTra</find>
+      <find>0x06E00800</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -335,14 +160,19 @@
         <option value="$PROJECT_DIR$/NhanDien_Anh.py" />
         <option value="$PROJECT_DIR$/Gui/LoadCamera.py" />
         <option value="$PROJECT_DIR$/Gui/CheckID.py" />
-        <option value="$PROJECT_DIR$/Gui/__init__.py" />
         <option value="$PROJECT_DIR$/Gui/KiemTraToanVen.py" />
-        <option value="$PROJECT_DIR$/Gui/CreateForm.py" />
+        <option value="$PROJECT_DIR$/dataset/xml" />
+        <option value="$PROJECT_DIR$/Gui/LoadCam.py" />
+        <option value="$PROJECT_DIR$/Gui/ChinhSuaThongTin.py" />
+        <option value="$PROJECT_DIR$/dataset/thu1.py" />
         <option value="$PROJECT_DIR$/Gui/LoginForm.py" />
+        <option value="$PROJECT_DIR$/Gui/FormMain.py" />
+        <option value="$PROJECT_DIR$/Gui/CreateForm.py" />
+        <option value="$PROJECT_DIR$/Gui/__init__.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -382,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -393,17 +222,23 @@
             <path>
               <item name="Dự án Nhận diện khuôn mặt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dự án Nhận diện khuôn mặt" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dự án Nhận diện khuôn mặt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dự án Nhận diện khuôn mặt" type="462c0819:PsiDirectoryNode" />
               <item name="Gui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -433,24 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LoginForm">
-    <configuration name="CheckID" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nhandienkhuonmat" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gui/CheckID.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.__init__">
     <configuration name="CreateForm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -468,7 +286,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="KiemTraToanVen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FormMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -480,7 +298,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="nhandienkhuonmat" />
-      <option name="SCRIPT_NAME" value="C:\Users\HuuCuong\Desktop\Dự án Nhận diện khuôn mặt\Gui\LoadCam.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gui/FormMain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -519,36 +337,56 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="thu1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nhandienkhuonmat" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/thu1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LoginForm" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CheckID" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CreateForm" />
-      <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
-      <item index="4" class="java.lang.String" itemvalue="Python.KiemTraToanVen" />
+      <item index="0" class="java.lang.String" itemvalue="Python.CreateForm" />
+      <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="2" class="java.lang.String" itemvalue="Python.FormMain" />
+      <item index="3" class="java.lang.String" itemvalue="Python.thu1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LoginForm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LoginForm" />
-        <item index="1" class="java.lang.String" itemvalue="Python.CreateForm" />
-        <item index="2" class="java.lang.String" itemvalue="Python.KiemTraToanVen" />
-        <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="4" class="java.lang.String" itemvalue="Python.CheckID" />
+        <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FormMain" />
+        <item index="2" class="java.lang.String" itemvalue="Python.CreateForm" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LoginForm" />
+        <item index="4" class="java.lang.String" itemvalue="Python.thu1" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3348983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.080937974" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -556,6 +394,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="591" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -589,6 +428,81 @@
           <line>16</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Gui/FormMain.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -597,28 +511,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="198" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataset/User.4.72.jpg" />
-    <entry file="file://$PROJECT_DIR$/dataset/User.4.92.jpg" />
-    <entry file="file://$PROJECT_DIR$/dataset/User.4.101.jpg" />
-    <entry file="file://$PROJECT_DIR$/haarcascade_eye.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NhanDangVSDataBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gui/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -641,61 +538,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.13.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.12.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.8.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.51.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.77.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.80.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.83.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.79.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.74.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.13.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.12.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.9.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.8.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.51.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.77.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.80.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.83.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.79.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.74.jpg" />
     <entry file="file://$PROJECT_DIR$/Gui/ConnectToSQL.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -703,31 +556,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.1.96.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.1.100.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.1.96.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.1.100.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.3.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.10.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.3.11.jpg" />
     <entry file="file://$PROJECT_DIR$/Image/images (2).jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -776,12 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="124" column="53" lean-forward="false" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
-          <folding>
-            <element signature="e#197#239#0" expanded="false" />
-            <element signature="e#544#810#0" expanded="false" />
-            <element signature="e#1072#2168#0" expanded="false" />
-            <element signature="e#7641#7813#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,85 +637,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.41.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.39.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/FormMain.py">
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.41.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.39.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.4.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.5.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.4.6.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/xml" />
+    <entry file="file://$PROJECT_DIR$/Gui/dataset/User.14.101.jpg" />
+    <entry file="file://$PROJECT_DIR$/Gui/ChinhSuaThongTin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="316">
+          <caret line="135" column="8" lean-forward="false" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gui/LoadCam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/CreateForm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+        <state relative-caret-position="401">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding>
-            <element signature="e#197#239#0" expanded="true" />
-            <marker date="1516967891739" expanded="true" signature="893:902" ph="..." />
-            <marker date="1516967891739" expanded="true" signature="1436:1445" ph="..." />
-            <marker date="1516967891739" expanded="true" signature="1436:1452" ph="..." />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gui/LoginForm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#195#209#0" expanded="true" />
+            <marker date="1517595755458" expanded="true" signature="444:453" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gui/__init__.py">
+    <entry file="file://$PROJECT_DIR$/dataset/thu1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gui/FormMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#194#230#0" expanded="true" />
+            <marker date="1518023196925" expanded="true" signature="1014:1802" ph="..." />
+            <marker date="1518023196925" expanded="true" signature="3412:3413" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gui/CreateForm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#197#239#0" expanded="true" />
+            <marker date="1518024016338" expanded="true" signature="384:407" ph="..." />
+            <marker date="1518024016338" expanded="true" signature="408:7217" ph="..." />
+            <marker date="1518024016338" expanded="true" signature="959:968" ph="..." />
+            <marker date="1518024016338" expanded="true" signature="1502:1511" ph="..." />
+            <marker date="1518024016338" expanded="true" signature="1502:1518" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

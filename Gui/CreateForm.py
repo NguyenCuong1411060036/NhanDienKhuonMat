@@ -11,16 +11,19 @@ import numpy as np
 import cv2
 import sqlite3
 from sqlite3 import Error
+import sys
+import os
 
 class Ui_FormCreate(object):
-
+    def ExitApp(self):
+        self.destory()
 
     ########## Insert dữ liệu nhân viên vào cơ sở dữ liệu ##############################3
     def InsertOrUpdate (self):
         HoTen=self.txtHoTen.text()
         Tuoi=self.txtTuoi.text()
-        GioiTinh=str(self.ComboChucVu.currentText())
-        ChucVu = str(self.ComboGioiTinh.currentText())
+        GioiTinh=str(self.ComboGioiTinh.currentText())
+        ChucVu = str(self.ComboChucVu.currentText())
         PhongBan= str(self.ComboPhongBan.currentText())
         DiaChi=self.txtDiaChi.text()
         SoDienThoai= self.txtSoDienThoai.text()
@@ -110,8 +113,9 @@ class Ui_FormCreate(object):
         self.pushButton_2.setGeometry(QtCore.QRect(376, 210, 75, 23))
         self.pushButton_2.setObjectName("pushButton_2")
         #####################  Kiểm tra Id ######################
-       # self.pushButton_2.clicked.connect(self.CheckId)
+        self.pushButton_2.clicked.connect(self.ExitApp)
         self.pushButton_3 = QtWidgets.QPushButton(Form)
+
         self.pushButton_3.setGeometry(QtCore.QRect(100, 210, 131, 23))
         self.pushButton_3.setObjectName("pushButton_3")
         ############ nhân diện ##########33
@@ -124,6 +128,7 @@ class Ui_FormCreate(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form Tạo mới Nhân viên "))
         self.label.setText(_translate("Form", "Họ và tên : "))
+
         self.label_2.setText(_translate("Form", "Tuổi  : "))
         self.label_3.setText(_translate("Form", "Địa chỉ : "))
         self.label_4.setText(_translate("Form", "Số điện thoại : "))
@@ -133,10 +138,10 @@ class Ui_FormCreate(object):
         self.ComboChucVu.setItemText(1, _translate("Form", "Phó phòng"))
         self.ComboChucVu.setItemText(2, _translate("Form", "Nhân viên "))
         self.label_7.setText(_translate("Form", "Phòng ban : "))
-        self.ComboPhongBan.setItemText(0, _translate("Form", "Phòng kinh doanh"))
-        self.ComboPhongBan.setItemText(1, _translate("Form", "Phòng IT"))
-        self.ComboPhongBan.setItemText(2, _translate("Form", "Phòng Đối ngoại"))
-        self.ComboPhongBan.setItemText(3, _translate("Form", "Phòng Nhân sự"))
+        self.ComboPhongBan.setItemText(0, _translate("Form", "Kinh Doanh"))
+        self.ComboPhongBan.setItemText(1, _translate("Form", "IT"))
+        self.ComboPhongBan.setItemText(2, _translate("Form", "Nhân sự"))
+        self.ComboPhongBan.setItemText(3, _translate("Form", "Đối ngoại"))
         self.ComboGioiTinh.setItemText(0, _translate("Form", "Nam"))
         self.ComboGioiTinh.setItemText(1, _translate("Form", "Nữ"))
         self.label_8.setText(_translate("Form", "Giới Tính : "))
