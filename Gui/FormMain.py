@@ -5,6 +5,7 @@
 # Created by: PyQt5 UI code generator 5.10
 #
 # WARNING! All changes made in this file will be lost!
+import numpy
 from CreateForm import Ui_FormCreate
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtSql import QSqlQueryModel,QSqlDatabase,QSqlQuery

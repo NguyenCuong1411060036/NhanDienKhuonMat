@@ -5,8 +5,10 @@ import numpy as np
 
 from PIL import Image
 
+# training hình ảnh thành file yml , lưu dữ liệu nhận dạng ở dạng text
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
+#recognizer=cv2.face.createLBPHFaceRecognizer()
 
 
 detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml");
@@ -30,7 +32,8 @@ def getImagesAndLabels(path):
             faceSamples.append(img_numpy[y:y+h,x:x+w])
             ids.append(id)
     return faceSamples,ids
-faces,ids = getImagesAndLabels('dataset')
+# thư viện ảnh là tập hợp những hình ảnh đã được cắt ở dạng khuôn mặt.
+faces,ids = getImagesAndLabels('ThuVienAnh')
 
 recognizer.train(faces, np.array(ids))
 
